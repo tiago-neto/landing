@@ -1,0 +1,135 @@
+/* Write some CSS below */
+h1, h2, h3 {
+	font-style: Chivo;
+	color: #1b263b;
+
+}
+
+h1 {
+	font-size: 60px;
+}
+
+p {
+	font-style: Overpass;
+	color: #0d1b2a;
+}
+
+.banner-text {
+	font-size: 25px;
+}
+
+.card-white img {
+	height: 200px;
+	width: 160px;
+	padding: 0px;
+	border-radius: 4px;
+box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+object-position: center;
+}
+
+.banner {
+	background-image: url("images/landsurf.jpg");
+  background-size: cover;
+  background-position: center;
+	height: 470px;
+	margin: 0px;
+	padding-top: 90px;
+	padding-left: 225px;
+}
+
+.banner img {
+  height: 470px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.button {
+	font-size: 30px;
+	text-decoration: none;
+	padding: 15px;
+	background-color: #415a77;
+	color:  white;
+	border-radius: 4px;
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+	transition: 0.3s ease;
+}
+
+.button:hover {
+	background-color: #778da9;
+}
+
+.container {
+	background-color: #f8f9fa;
+	margin-top: 0px;
+	padding-top: 15px;
+	height: 450px;
+	padding-right: 705px;
+	width: 100%;
+	margin-right: 0px;
+}
+
+h2 {
+	font-size: 35px;
+	padding-left: 250px;
+}
+
+.card-white {
+	height: 250px;
+	width: 200px;
+	text-align: center;
+	background-color: white;
+	border-radius: 4px;
+box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+padding-top: 10px;
+margin: 5px;
+}
+
+.footer {
+	height: 75px;
+	background-color: #1b263b;
+	margin: 0px;
+	text-align: center;
+	padding: 15px;
+	font-size: 18px;
+}
+
+.footer-text {
+color: #e0e1dd;
+}
+
+.cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 10px;
+	padding-left: 350px;
+}
+
+@media (max-width: 800px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+  
+  .card-white {
+    width: auto;
+  }
+}
+  
+@media (min-width: 500px) {
+  .container {
+    width: 400px;
+  }
+}
+
+
+@media (min-width: 800px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .container {
+    width: 800px;
+  }
+}
